@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 95px;
+  background: linear-gradient(180deg, #2b284e 1.2%, #2662d3 70%);
+  color: white;
+  padding: 20px;
+}
+
+.header-image{
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header-title{
+  font-size: 35px;
+  /*pushes the element automatically as far right*/
+  margin-right: auto;
+}
+
+.header-project{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(39, 37, 37);
+}
+
+.form-grid{
+  display: grid;
+  /*the 40px is the height of the top and bottom box*/
+  /*1fr allow only 2 elements on each row*/
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  margin: 40px;
+}
+
+.main{
+  padding: 36px;
+}
+
+.input{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d5d4d8;
+  text-indent: 5px;
+}
+
+.button{
+  /*this stretches the button across the grid*/
+  grid-column: 1 / -1;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #2b284e 1.2%, #2662d3 70%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
